@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #030100;
+}
+.container1 {
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  border: 5px solid black;
+  margin-top: 10px;
+  margin-left: 20px;
+  background-color: black;
+  
+}
+.container2 {
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  border: 5px solid black;
+  margin-top: 10px;
+  margin-left: 250px;
+  background-color: black;
+}
+.container3 {
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  border: 5px solid black;
+  margin-top: 10px;
+  margin-left: 480px;
+  background-color: black;
+}
+.container4 {
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  border: 5px solid black;
+  margin-top: 10px;
+  margin-left: 710px;
+  background-color: black;
+}
+.container5 {
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  border: 5px solid black;
+  margin-top: 10px;
+  margin-left: 940px;
+  background-color: black;
+}
+.container6 {
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  border: 5px solid black;
+  margin-top: 10px;
+  margin-left: 1175px;
+  background-color: black;
+}
+.container7 {
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  border: 5px solid black;
+  margin-top: 10px;
+  margin-left: 1410px;
+  background-color: black;
+}
+.container8{
+  width: 780px;
+  height: 900px;
+  position: absolute;
+  border: 5px solid gold;
+  margin-top: 10px;
+  margin-left: 390px;
+  background-color: black;
+} 
+.container9
+  {
+    margin-top: 250px;
+    margin-left: 785px;
+    width: 300px;
+    height: 300px;
+    background: #ffffff;
+    border: 5px double #000000;
+  }
+#poly-maroon{
+    animation-name: polygo;
+    animation-duration: 4s;
+    animation-iteration-count:1;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+  }
+@keyframes polygo{
+  0% {
+    transform: translateY(-20px);
+  }
+  25% {
+    transform: translateY(0px);
+  }
+  75%{
+    transform: translateX(-5px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+#poly-orange{
+  animation-name: polygo1;
+  animation-duration: 4s;
+  animation-iteration-count:1;
+  animation-timing-function: ease-in;
+}
+@keyframes polygo1{
+0% {
+  transform: translateY(20px);
+}
+25%{
+  transform: translateY(0px);
+}
+75%{
+  transform: translateX(5px);
+}
+100% {
+  transform: translateX(0px);
+}
+}

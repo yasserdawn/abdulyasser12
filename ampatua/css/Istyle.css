@@ -1,0 +1,228 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+#section1{
+    height: 885px;
+    display: inline-block;
+    width:100%;
+    overflow: hidden;
+    background: #add8e6;
+}
+.container1{
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    margin-top: 5px;
+    margin-left: 685px;
+    position: absolute;
+    border: 5px double #ffffff;
+    border-radius: 50%;
+  }
+#Footer{
+  background: grey;
+  color: #ffffff;
+  text-align: center;
+  padding: 50px;
+  margin-top: 0px;
+  }
+.container{
+    width: 90%;
+    height: 120px;
+    overflow: hidden;
+	font-size: 30px;
+	margin-left: 70px;
+  }
+#mainHeader{
+    background: #fe1493;
+
+  }
+  .fa {
+    padding: 30px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    transform: scale(0.9);
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    transform: scale(0.9);
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+      transform: scale(0.9);
+  }
+  .rec{
+    height: 250px;
+    width: 725px;
+    background: transparent;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: -155px;
+  }
+  .rec2{
+    height: 250px;
+    width: 945px;
+    background: transparent;
+    position: absolute;
+    margin-top: 318px;
+    margin-left: 10px;
+  }
+  .rec3{
+    height: 250px;
+    width: 950px;
+    background: transparent;
+    position: absolute;
+    margin-top: 318px;
+    margin-left: 1313px;
+  }
+  .rec4{
+    height: 250px;
+    width: 900px;
+    background: transparent;
+    position: absolute;
+    margin-top: 345px;
+    margin-left: 950px;
+  }
+  .rec5{
+    height: 235px;
+    width: 1155px;
+    background: transparent;
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 360px;
+  }
+  .basket{
+    height: 200px;
+    width: 500px;
+    background: transparent;
+    position: absolute;
+    margin-top: 390px;
+    margin-left: 375px;
+  }
+  .basket1{
+    height: 200px;
+    width: 785px;
+    background: transparent;
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 905px;
+}
+.basket2{
+  height: 200px;
+  width: 785px;
+  background: transparent;
+  position: absolute;
+  margin-top: 105px;
+  margin-left: 905px;
+  
+}
+.basket3{
+  height: 300px;
+  width: 450px;
+  background: transparent;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 1090px;
+
+}
+#showcase {
+  height: 100px;
+   animation-duration: 2s;
+}
+#showcase h1 {
+  color: solid black;
+  margin-left: 30px;
+  margin-top: 280px;
+  font-size: 25px;
+  line-height: 1.3;
+  position: relative;
+  animation: heading;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  
+}
+@keyframes heading {
+  0% {
+    top: 50px;
+  }
+  100% {
+    top: 200px;
+  }
+}
+  #sulodlan {
+    position: relative;
+    margin-left: 50px;
+    opacity: 0;
+    animation-name: des;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration: 1s;
+  }
+  @keyframes des {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+p{
+  color:#ffffff ;
+}
+.pack{
+  height:500px ;
+  width:500px ;
+  background: transparent;
+  margin-top: 0px;
+  margin-right: 150px;
+  position: absolute;
+}
+.pack2{
+  height:500px ;
+  width:500px ;
+  background: transparent;
+  margin-top: 0px;
+  margin-right: 150px;
+  position: absolute;
+  animation-name: spin;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+h2{
+  color: #ffffff;
+  margin-left: 10px;
+  margin-top: 50px;
+  position: absolute;
+}
+.wew{
+  width: 50px;
+  height: 50px;
+  border: 10px;
+  margin-top: 35px;
+  margin-left: -60px;
+  position: absolute;
+}
